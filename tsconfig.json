@@ -25,9 +25,11 @@
     ]
   },
   "angularCompilerOptions": {
+    "_extendedTemplateDiagnostics": true,
     "extendedDiagnostics": {
       "checks": {
-        "invalidBananaInBox": "error"
+        "invalidBananaInBox": "warning",
+        "nullishCoalescingNotNullable": "suppress"
       },
       "defaultCategory": "error"
     },
